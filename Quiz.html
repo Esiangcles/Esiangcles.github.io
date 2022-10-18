@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body{background-image:radial-gradient(pink, purple)}
+        .Stud {
+            background-image:radial-gradient( pink, rgba(0, 1, 1, 0.803));
+            position: relative;
+            width: 400px;
+            margin-top: 30px;
+            margin-right: 500px;
+            margin-left: 450px;
+            padding: 20px;
+        }
+
+        .Exam {
+            background-image: radial-gradient(rgba(0, 1, 1, 0.803),pink);
+            position: relative;
+            width: 400px;
+            margin-right: 500px;
+            margin-left: 450px;
+            padding: 20px;
+
+        }
+        .topnav {
+            margin-top: opx;
+            list-style-type: none;
+            padding: 5px;
+            overflow: hidden;
+            background-color:rgba(0, 1, 1, 0.803)
+        }
+
+        li {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color:rgb(251, 201, 232);
+            text-align: center;
+            padding: 30px 60px 20px 30px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            color: black;
+        }
+
+        #footer {
+            background-color:rgba(0, 1, 1, 0.803);
+            padding: 5px;
+            width: 100%;
+            color:rgb(251, 201, 232);
+            display: inline-block;
+            margin-top: 220px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html"> <img src="Gold_Luxury_Initial_Circle_Logo-removebg-preview.png" width="7%"></a>
+        <li> <a class="active"href="">Quiz App</a></li>
+        <li> <a href="registration.html">Registration</a></li>
+        <li> <a  href="stat.html">Stat</a></li>
+    </div>
+    <form action="">
+        <div class="Stud">
+            <table align="center">
+                <td>
+                    <h1> Student Info</h1>
+                </td>
+                <tr>
+                    <td><label for="name">Name:</label>
+                        <input type="text" placeholder="e.g Crisia Ann Socito">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email:</label>
+                        <input type="text" placeholder="e.g crisia@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="course">Course:</label>
+                        <input type="text" placeholder="Please input course and block">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date:</label>
+                        <input type="date" name="date">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="Exam">
+            <table align="center">
+                <td>
+                    <h1>Exam Proper</h1>
+                </td>
+
+
+                <ol >
+                    <tr>
+                    <td><br>1. What does CSS stand for?
+                        <input type="text" name="CSS">
+                    </td>
+                     </tr>
+                     <tr>
+                     <td><br>2. What HTML tag is use to defineman internal style sheet?
+                            <input type="text" name="CSS">
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><br>3. What HTML attribute is used to define inline style?
+                               <input type="text" name="CSS">
+                       </td>
+                       </tr>
+                       <tr>
+                        <td><br>4. What property is used to change the background color?
+                               <input type="text" name="CSS">
+                       </td>
+                       </tr>
+                     <tr>
+                        <td><br>5. The MIME type for a CSS stylesheet is "stylesheet=CSS"?<br>
+                            <input type="radio" id="true" name="option" value="true">
+                            <label for="yes">True</label>
+                            <input type="radio" id="false" name="option" value="false">
+                            <label for="no">False</label>
+                        </td>
+                         </tr>
+                         <tr>
+                            <td><br>6.The link element should be placed at the top of the body section?<br>
+                                <input type="radio" id="true" name="option" value="true">
+                                <label for="yes">True</label>
+                                <input type="radio" id="false" name="option" value="false">
+                                <label for="no">False</label>
+                            </td>
+                             </tr>
+                         <tr>
+                            <td><br>7. What are the tags use for form?(check as many as you want)<br>
+                                <input type="checkbox" id="radio" name="radio" value="radio">
+                                <label for="radio">radio</label>
+                                <input type="checkbox" id="body" name="body" value="body">
+                                <label for="body">body</label>
+                                <input type="checkbox" id="select" name="select" value="select">
+                                <label for="select">select</label>
+                                <input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+                                <label for="checkbox">checkbox</label>
+                            </td>
+                             </tr>
+
+                             <tr> 
+                                <td>
+                                    <br>8.Upload the screenshot of your web design.<br>
+                                    <input type="file" id="pic" name="pic" accept="image/png,image/jpeg">
+                                   
+                                </td>
+                                 </tr>
+                                
+                                 <tr> 
+                                    <td>
+                                        <br>9. Discuss what you already know about CSS<br>
+                                        <textarea name="Discuss" id="Discuss" placeholder="Type here..." cols="50" rows="5"></textarea>
+                                    </td>
+                                     </tr>
+                                     <tr> 
+                                        <td>
+                                            <br>9.Discuss the advantage and disadvantage of CSS<br>
+                                            <textarea name="Discuss" id="Discuss" placeholder="Type here..." cols="50" rows="5"></textarea>
+                                        </td>
+                                         </tr>
+                                     <tr> 
+                                        <td>
+                                
+                                            <input type="submit">
+                                        </td>
+                                         </tr>
+                                 
+
+                </ol>
+
+            </table>
+
+        </div>
+
+    </form>
+    <center>
+        <div id="footer">
+               <a href="https://www.facebook.com/crisiaann.socito.5" target="_blank"> <img src="Facebook-Logo-PNG-Photo.png" width="50px"></a>
+               <a href="https://www.instagram.com/socitocrisiaann/" target="_blank"> <img src="Instagram-IG-Logo-Transparent-Image.png" width="40px"></a>
+               <p>Follow me on social media!</p>
+        </div>
+        </center>
+</body>
+
+</html>
